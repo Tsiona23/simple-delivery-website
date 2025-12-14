@@ -3,7 +3,7 @@
 A modern, interactive delivery service website with real-time booking and dynamic pricing.
 
 🎯 Live Demo
-
+https://tsiona23.github.io/simple-delivery-website/
 
 🛠️ Technologies Used
 
