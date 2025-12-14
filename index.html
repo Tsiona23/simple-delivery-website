@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast • Safe • ZiExpress Delivery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛵</text></svg>">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <i class="fas fa-bolt"></i>
+                <span>ZiExpress</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="cta-button">
+                <i class="fas fa-shopping-bag"></i>
+                Book Delivery
+            </button>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main class="main-content" id="home">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Fast • Safe • ZiExpress Delivery</h1>
+                <p class="subtitle">Your favorite items delivered with lightning speed ⚡</p>
+                <button class="hero-btn" id="exploreBtn">
+                    <i class="fas fa-rocket"></i>
+                    Explore Services
+                </button>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="number">15</span>
+                        <span class="label">Min Avg Delivery</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number">10K+</span>
+                        <span class="label">Happy Customers</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number">24/7</span>
+                        <span class="label">Service</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="delivery-graphic">
+                    <div class="delivery-bike">
+                        <i class="fas fa-motorcycle"></i>
+                    </div>
+                    <div class="floating-icons">
+                        <i class="fas fa-package"></i>
+                        <i class="fas fa-clock"></i>
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section class="why-section" id="about">
+            <h2>Why Choose ZiExpress?</h2>
+            <p class="why-desc">We deliver at lightning speed, with maximum safety and care. Your satisfaction is our priority! 🚀</p>
+            
+            <div class="features-grid" id="featuresContainer">
+                <!-- Features loaded by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services-section" id="services">
+            <h2>Our Premium Services</h2>
+            <p class="section-subtitle">Choose the delivery speed that matches your needs</p>
+            <div class="services-grid" id="servicesContainer">
+                <!-- Services loaded by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Booking Form -->
+        <section class="booking-section" id="contact">
+            <div class="booking-header">
+                <h2>Book a Delivery</h2>
+                <p class="booking-subtitle">Fill in the details and we'll handle the rest!</p>
+            </div>
+            <div class="booking-form-container">
+                <form id="deliveryForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">
+                                <i class="fas fa-user"></i>
+                                Full Name
+                            </label>
+                            <input type="text" id="name" placeholder="Enter your full name">
+                            <div class="input-feedback"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">
+                                <i class="fas fa-phone"></i>
+                                Phone Number
+                            </label>
+                            <input type="tel" id="phone" placeholder="Enter your phone number">
+                            <div class="input-feedback"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="address">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Delivery Address
+                        </label>
+                        <textarea id="address" rows="3" placeholder="Enter complete delivery address"></textarea>
+                        <div class="input-feedback"></div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="serviceType">
+                                <i class="fas fa-shipping-fast"></i>
+                                Service Type
+                            </label>
+                            <select id="serviceType">
+                                <option value="">Select delivery speed</option>
+                                <option value="flash">Flash Delivery (15 mins)</option>
+                                <option value="express">Express (30 mins)</option>
+                                <option value="standard">Standard (1-2 hours)</option>
+                            </select>
+                            <div class="input-feedback"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="packageType">
+                                <i class="fas fa-box"></i>
+                                Package Type
+                            </label>
+                            <select id="packageType">
+                                <option value="small">Small Package</option>
+                                <option value="medium" selected>Medium Package</option>
+                                <option value="large">Large Package</option>
+                                <option value="xl">Extra Large</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="form-options">
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="fragile">
+                            <label for="fragile">
+                                <i class="fas fa-glass-whiskey"></i>
+                                Contains fragile items
+                            </label>
+                        </div>
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="giftwrap">
+                            <label for="giftwrap">
+                                <i class="fas fa-gift"></i>
+                                Gift wrapping service
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="estimated-cost">
+                        <h4>Estimated Cost: <span id="costDisplay">$12.99</span></h4>
+                        <p class="cost-note">Final price confirmed after booking</p>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-bolt"></i>
+                        Confirm & Book Delivery
+                    </button>
+                </form>
+                
+                <div class="confirmation" id="confirmation">
+                    <!-- Success content loaded by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Live Tracking Demo -->
+        <section class="tracking-section">
+            <h2>Real-Time Tracking</h2>
+            <div class="tracking-demo">
+                <div class="tracking-progress">
+                    <div class="tracking-step completed">
+                        <i class="fas fa-store"></i>
+                        <span>Order Placed</span>
+                    </div>
+                    <div class="tracking-step active">
+                        <i class="fas fa-biking"></i>
+                        <span>On the Way</span>
+                    </div>
+                    <div class="tracking-step">
+                        <i class="fas fa-home"></i>
+                        <span>Delivered</span>
+                    </div>
+                </div>
+                <div class="tracking-map">
+                    <div class="map-placeholder">
+                        <i class="fas fa-map"></i>
+                        <p>Live Tracking Map</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="logo">
+                    <i class="fas fa-bolt"></i>
+                    <span>ZiExpress</span>
+                </div>
+                <p class="footer-tagline">Delivering happiness at the speed of light</p>
+                <div class="app-badges">
+                    <div class="app-badge">
+                        <i class="fab fa-google-play"></i>
+                        <div>
+                            <span>GET IT ON</span>
+                            <strong>Google Play</strong>
+                        </div>
+                    </div>
+                    <div class="app-badge">
+                        <i class="fab fa-app-store"></i>
+                        <div>
+                            <span>Download on the</span>
+                            <strong>App Store</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Book Delivery</a></li>
+                    <li><a href="#">Track Order</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <div class="contact-info">
+                    <p><i class="fas fa-phone"></i> 1-800-ZIEXPRESS</p>
+                    <p><i class="fas fa-envelope"></i> support@ziexpress.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Delivery Street, City</p>
+                </div>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Business Hours</h4>
+                <div class="business-hours">
+                    <p><strong>24/7 Delivery</strong></p>
+                    <p>Customer Support: 6AM - 12AM</p>
+                    <p>Corporate Office: 9AM - 6PM</p>
+                </div>
+                <div class="newsletter">
+                    <p>Subscribe for updates</p>
+                    <div class="newsletter-input">
+                        <input type="email" placeholder="Your email">
+                        <button><i class="fas fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>2024 ZiExpress. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            <p class="made-with">
+                Made with <i class="fas fa-heart"></i> for fast deliveries
+            </p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js" defer></script>
+</body>
+</html>
