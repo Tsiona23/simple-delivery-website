@@ -1,10 +1,12 @@
-ZiExpress Delivery Website 🚀
+   ZiExpress Delivery Website 🚀
+   
 A modern, interactive delivery service website with real-time booking and dynamic pricing.
 
 🎯 Live Demo
 
 
 🛠️ Technologies Used
+
 Frontend Stack
 HTML5 - Semantic markup and structure
 
@@ -17,6 +19,7 @@ Font Awesome - Icon library
 Google Fonts - Poppins font family
 
 Key JavaScript Features
+
 ES6 Classes for clean architecture
 
 Async/await for smooth operations
@@ -28,6 +31,7 @@ Web Audio API for sound effects
 CSS Animations for visual feedback
 
 ✨ Features
+
 Core Functionality
 Instant Booking System - Fast order placement
 
@@ -76,6 +80,7 @@ See Live Price - Watch cost update in real-time
 Place Order - Click to book delivery
 
 📱 Browser Support
+
 Chrome 60+ ✅
 
 Firefox 55+ ✅
@@ -87,6 +92,7 @@ Edge 79+ ✅
 Mobile browsers ✅
 
 🚀 Future Improvements
+
 Planned Features
 User Accounts - Save preferences and addresses
 
@@ -101,6 +107,7 @@ Multi-language - International support
 Dark Mode - Alternate theme option
 
 Technical Upgrades
+
 PWA Support - Install as app, offline access
 
 Backend API - Real database integration
@@ -110,6 +117,7 @@ Automated Testing - Unit & integration tests
 Performance Optimizations - Faster loading
 
 🤝 Contributing
+
 Fork the repository
 
 Create a feature branch
@@ -121,6 +129,7 @@ Push to the branch
 Open a Pull Request
 
 📄 License
+
 MIT License - see LICENSE file for details
 
 👏 Acknowledgements
@@ -133,4 +142,4 @@ Inspiration: Modern delivery services
 📞 Support
 Open an issue on GitHub for questions or problems.
 
-Made with ❤️ for fast deliveries | ZiExpress - Your reliable delivery partner ⚡
+
