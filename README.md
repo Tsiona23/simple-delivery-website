@@ -62,7 +62,9 @@ zi-express/
 ├── style.css          # CSS styles
 ├── script.js          # JavaScript functionality
 └── README.md          # This file
+
 🚀 Quick Start
+
 Download the project files
 
 Open index.html in any browser
