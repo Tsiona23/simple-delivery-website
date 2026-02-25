@@ -2,10 +2,10 @@
    
 A modern, interactive delivery service website with real-time booking and dynamic pricing.
 
-🎯 Live Demo
+## 🎯 Live Demo
 https://tsiona23.github.io/simple-delivery-website/
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 Frontend Stack
 HTML5 - Semantic markup and structure
@@ -30,7 +30,7 @@ Web Audio API for sound effects
 
 CSS Animations for visual feedback
 
-✨ Features
+## ✨ Features
 
 Core Functionality
 Instant Booking System - Fast order placement
@@ -54,9 +54,8 @@ Delivery Tracking - Order status animation
 
 Personal Agent - Tsion H as your delivery agent
 
-📁 Project Structure
 
-
+## 📁 Project Structure
 
 zi-express/
 ├── index.html          # Main HTML file
@@ -65,7 +64,7 @@ zi-express/
 └── README.md          # This file
 
 
-🚀 Quick Start
+## 🚀 Quick Start
 
 Download the project files
 
@@ -73,7 +72,7 @@ Open index.html in any browser
 
 No installation needed - works immediately
 
-🔧 How to Use
+## 🔧 How to Use
 Select a Service - Choose delivery speed
 
 Enter Details - Fill in name, phone, address
@@ -84,7 +83,7 @@ See Live Price - Watch cost update in real-time
 
 Place Order - Click to book delivery
 
-📱 Browser Support
+## 📱 Browser Support
 
 Chrome 60+ ✅
 
@@ -96,7 +95,7 @@ Edge 79+ ✅
 
 Mobile browsers ✅
 
-🚀 Future Improvements
+## 🚀 Future Improvements
 
 Planned Features
 User Accounts - Save preferences and addresses
@@ -121,7 +120,7 @@ Automated Testing - Unit & integration tests
 
 Performance Optimizations - Faster loading
 
-🤝 Contributing
+## 🤝 Contributing
 
 Fork the repository
 
@@ -133,11 +132,11 @@ Push to the branch
 
 Open a Pull Request
 
-📄 License
+## 📄 License
 
 MIT License - see LICENSE file for details
 
-👏 Acknowledgements
+## 👏 Acknowledgements
 Icons: Font Awesome
 
 Fonts: Google Fonts
