@@ -56,12 +56,14 @@ Personal Agent - Tsion H as your delivery agent
 
 📁 Project Structure
 
-text
+
+
 zi-express/
 ├── index.html          # Main HTML file
 ├── style.css          # CSS styles
 ├── script.js          # JavaScript functionality
 └── README.md          # This file
+
 
 🚀 Quick Start
 
